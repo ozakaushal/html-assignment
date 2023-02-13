@@ -1,0 +1,384 @@
+@media screen and (max-width:1410px) {
+    .search-box {
+
+        width: 61.5%;
+    }
+
+
+}
+
+@media screen and (max-width:1385px) {
+
+    .right-navigation {
+        /* align-items: center; */
+        width: 16%;
+    }
+
+}
+
+@media screen and (max-width:1330px) {
+    .right-navigation {
+        /* align-items: center; */
+        width: 20%;
+        gap: 4rem;
+    }
+
+    .charts {
+        display: grid;
+        width: 100%;
+        grid-template-columns: 56% 39%;
+        grid-template-rows: 0%;
+        column-gap: 6%;
+        margin-top: 5rem;
+        padding-left: 1rem;
+    }
+
+    .data-graph--chart {
+        height: 85%;
+    }
+
+    .pie-chart {
+        height: 46vh;
+    }
+
+    .red-circle {
+        width: 16px;
+        height: 16px;
+    }
+
+    .green-circle {
+        width: 16px;
+        height: 16px;
+    }
+
+    .yellow-circle {
+        width: 16px;
+        height: 16px;
+    }
+
+    .orange-circle {
+        width: 16px;
+        height: 16px;
+    }
+
+    .country small {
+        font-size: 1.1rem;
+    }
+
+    .invoice-table {
+        background-color: #fff;
+        padding: 2.5rem;
+        margin-top: 2rem;
+        border-radius: 5px;
+        width: 100%;
+        margin-left: 2.5%;
+        margin-left: 13px;
+    }
+    .profile-item{
+        display: none;
+    }
+}
+
+@media screen and (max-width:1285px) {
+    .right-navigation {
+        /* align-items: center; */
+        width: 20%;
+        gap: 3.5rem;
+    }
+    .profile-item{
+        display: none;
+    }
+}
+
+@media screen and (max-width:1275px) {
+    .insights {
+        display: grid;
+        grid-template-columns: 18% 19% 18% 18% 18%;
+        grid-template-rows: 10%;
+        column-gap: 2%;
+        padding-left: 2%;
+    }
+    .profile-item{
+        display: none;
+    }
+}
+
+@media screen and (max-width:1250px) {
+    .right-navigation {
+        /* align-items: center; */
+        width: 20%;
+        position: absolute;
+        right: 0;
+
+        gap: 3.5rem;
+    }
+    .profile-item{
+        display: none;
+    }
+}
+
+@media screen and (max-width:1211px) {
+    .insights {
+        display: grid;
+        grid-template-columns: 19% 20% 19% 19% 19%;
+        grid-template-rows: 10%;
+        column-gap: 1.7%;
+        padding-left: 2%;
+    }
+    .data-graph--chart {
+        height: 80%;
+    }
+    .pie-chart {
+        height: 80%;
+    }
+
+    .profile-item{
+        display: none;
+    }
+   
+}
+
+@media screen and (max-width:1151px){
+    .insights {
+        display: grid;
+        grid-template-columns: 20% 21% 20% 20% 20%;
+        grid-template-rows: 10%;
+        column-gap: 1.7%;
+        padding-left: 1%;
+    }
+    .profile-item{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:1135px){
+    .right-navigation {
+        /* align-items: center; */
+        width: 21%;
+        position: absolute;
+        right: 0;
+
+        gap: 3.1rem;
+    }
+    .profile-item{
+        display: none;
+    }
+}
+
+@media screen and (max-width:1086px){
+    .insight-icon {
+        width: 33px;
+        height: 33px;
+        min-width: 30px;
+        min-height: 30px;
+      }
+
+      .insight-info p {
+          font-size: 22px;
+          
+        }
+        .insights {
+          display: grid;
+          grid-template-columns: 20% 21% 20% 20% 18%;
+          grid-template-rows: 10%;
+          column-gap: 1.7%;
+          padding-left: 1%;
+      }
+
+      .invoice-table{
+        padding: 1rem;
+      }
+      .profile-item{
+        display: none;
+    }
+}
+
+@media screen and (max-width:1050px){
+
+    .insights {
+        display: grid;
+        /* grid-template-columns: 20% 21% 20% 20% 18%; */
+        /* grid-template-rows: 10%; */
+        column-gap: 1.2%;
+        padding-left: 1%;
+    }
+
+    .insight{
+        gap:0.8rem;
+    }
+    .right-navigation {
+        /* align-items: center; */
+        width: 21%;
+        position: absolute;
+        right: 0;
+
+        gap: 2.5rem;
+    }
+
+    .insight-info p {
+        font-size: 20px;
+        
+      }
+
+      .insight-icon {
+        width: 30px;
+        height: 30px;
+        /* min-width: 30px;
+        min-height: 30px; */
+      }
+      .profile-item{
+        display: none;
+    }
+}
+
+@media screen and (max-width:1010px){
+    .data-graph--chart {
+        height: 75%;
+    }
+    .pie-chart {
+        height: 75%;
+    }
+
+   
+    .invoice-table{
+        margin-top: 0rem;
+    }
+
+    #data-graph {
+        width: 100%;
+        height: 40vh;
+      }
+
+      .insights {
+        display: grid;
+        grid-template-columns: 24% 24% 24% 24%;
+        row-gap: 10%;
+        grid-template-rows: 10%;
+        column-gap: 1.2%;
+        padding-left: 1%;
+    }
+
+    .right-navigation {
+        /* align-items: center; */
+        width: 23%;
+        position: absolute;
+        right: 0;
+
+        gap: 2rem;
+    }
+
+    .left--sidebar{
+        width: 20%;
+    }
+    .profile-item{
+        display: none;
+    }
+}
+
+@media screen and (max-width:930px){
+    .left--sidebar{
+        width: 27%;
+    }
+
+    .dashboard-item {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 0.7rem;
+        width: 75%;
+        border-radius: 5px;
+        padding: 0.5rem;
+        margin-left: 1.5rem;
+      }
+      .profile-item{
+        display: none;
+    }
+}
+
+@media screen and (max-width:884px){
+    .charts {
+        display: grid;
+        width: 100%;
+        grid-template-columns: 54% 38%;
+    }
+    .navigation-profile{
+        display: none;
+    }
+    .red-circle {
+        width: 13px;
+        height: 13px;
+    }
+
+    .green-circle {
+        width: 13px;
+        height: 13px;
+    }
+
+    .yellow-circle {
+        width: 13px;
+        height: 13px;
+    }
+
+    .orange-circle {
+        width: 13px;
+        height: 13px;
+    }
+
+    .country small {
+        font-size: 0.9rem;
+      }
+
+      .dashboard-item {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        /* gap: rem; */
+        font-size: 0.8rem;
+        width: 80%;
+        border-radius: 5px;
+        padding: 0.5rem;
+        margin-left: 1.5rem;
+      }
+
+      .profile-item{
+        display: flex;
+    }
+
+    .right-navigation{
+        width: 6%;
+        position: absolute;
+        right: 15px;
+    }
+    .search-box{
+        margin-left: 4%;
+    }
+    
+    .insights {
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        row-gap: 10%;
+        grid-template-rows: 10%;
+        column-gap: 1.5rem;
+        padding-left: 1%;
+    }
+
+    .invoice-table {
+        margin-top: -3rem;
+      }
+
+}     
+
+@media screen and (max-width:811px){
+    .dashboard-item {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: rem;
+        font-size: 0.8rem;
+        width: 91%;
+        border-radius: 5px;
+        padding: 0.5rem;
+        margin-left: 0.5rem;
+    }
+}
